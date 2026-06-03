@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumaverde</title>
+    <link rel="stylesheet" href="css/estilospropios.css"> <!--MIS ESTILOS CSS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--CONEXION A GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!--CONEXION A GOOGLE FONTS-->
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff&family=Henny+Penny&family=Lobster&display=swap" rel="stylesheet"> <!--FUENTES A USAR DESDE GOOGLE FONTS-->
+    <script src="https://kit.fontawesome.com/9ffe67f035.js" crossorigin="anonymous"></script> <!--CONEXION A FONTAWESOME (PARA EL ÍCONO DE MENU MOBILE)-->
+</head>
+
+<body>
+     
+    <!--CABECERA-->
+    <header id="cabecera">
+
+        <!--MENU MOBILE-->
+        <div id="contenedor-menu-mobile">
+            <button id="btn-menu-mobile"><i class="fa-solid fa-bars"></i></button>
+            <ul id="lista-menu-mobile">
+                <li><a href="#cabecera" >Inicio</a></li>
+                <li><a href="#seccion1">¿Quienes somos?</a></li>
+                <li><a href="#seccion2" >Productos</a></li>
+                <li><a href="#seccion2" >Te ofrecemos</a></li>
+                <li><a href="#seccion3" >Contacto</a></li>
+            </ul>
+        </div>
+
+        <!--MENU WEB-->
+        <nav id="menu">
+            <ul>
+                <li><a href="#cabecera" >Inicio</a></li>
+                <li><a href="#seccion1">¿Quienes somos?</a></li>
+                <li><a href="#seccion2" >Productos</a></li>
+                <li><a href="#seccion3" >Te ofrecemos</a></li>
+                <li><a href="#seccion4" >Contacto</a></li>
+            </ul>
+        </nav>
+
+        <!--LOGO + TITULO-->
+        <img src="imagenes/logosinfondo.png" alt="imagen de empresa" id="logo" class="fotografias">
+        <h1 id="titulo">Luma Verde</h1>
+
+    </header>
+
+    <!--CUERPO-->
+    <main>
+        <!--¿QUE HACEMOS?-->
+        <section id="seccion1" class="secciones">
+
+            <!--CONTENEDOR TITULO Y PARRADO-->
+            <div id="conetendor-quienes-somos">
+                <h1>¿Quiénes somos?</h1>
+                <hr>
+                <p>En Lumaverde somos una empresa comprometida con el desarrollo sostenible y la transformación energética, especializada en la venta de paneles solares y productos afines para hogares, empresas e industrias.</br></br>Nacemos con el propósito de acercar la energía limpia a más personas, ofreciendo soluciones eficientes, accesibles y de alta calidad que permiten reducir costos energéticos y contribuir al cuidado del medio ambiente.</br></br>Nuestro enfoque está en brindar tecnologías confiables que aprovechen al máximo los recursos naturales, especialmente la energía solar, considerada una de las fuentes más limpias y renovables disponibles en la actualidad.</br></br>Contamos con un equipo comprometido quetrabaja día a día para asesorar a nuestros clientes en la elección de productos adecuados a sus necesidades, garantizando eficiencia, innovación y respaldo en cada proyecto.</br></br>En Lumaverde creemos que el futuro es verde, y por eso impulsamos soluciones que no solo generan ahorro, sino que también aportan al bienestar del planeta.</p>
+            </div>
+
+            <!--CONTENEDOR VIDEO + PÁRRAFOS-->
+            <div id="contendedor-video">
+                <p id="titulo-video">Video de apoyo para realizar tu compra:</p>
+                <video src="videos/infocomplementaria.mp4" id="video-quienes-somos" controls></video>
+                <cite>Video tomado de:<a href="https://www.youtube.com/watch?v=xpevRLDr6n8">Aprende a comprar paneles solares en 5 minutos</a></cite>
+                <p>Más que vender productos, en Luma  verde ofrecemos energía para un futuro sostenible.</p>
+            </div>
+            
+        </section>
+   
+        <!--PRODUCTOS-->
+        <section id="seccion2" class="secciones">
+
+            <!--TITULO-->
+            <h1>Productos</h1>
+            <hr>
+            <!--CONTENEDOR PRODUCTOS-->
+            <div id="productos">
+
+                <!--PRODUCTO 1-->
+                <div class="producto">              
+                    <img src="imagenes/controlador.jpg" class="imagenProduc">
+                    <h2>Controlador de carga Victron SmartSolar MPPT 100/30 - El cerebro de tu sistema solar.</h2>
+                    <ul>
+                        <li><p><b>Corriente de carga nominal:</b> 30 amperios.</p></li>
+                        <li><p><b>Tensión máxima del lote solar (Voc):</b> 100 voltios (permite conectar paneles en serie para mayor eficiencia).</p></li>
+                        <li><p><b>Potencia máxima fotovoltaica:</b> 440W (en sistemas de 12V) / 880W (en sistemas de 24V).</p></li>
+                        <li><p><b>Consumo propio:</b> Tan solo 10mA (el más bajo de su categoría).</p></li>
+                        <li><p><b>Protecciones:</b> Contra polaridad inversa, cortocircuitos y exceso de temperatura.</p></li>
+                    </ul>       
+                </div>
+                
+                <!--PRODUCTO 2-->
+                <div class="producto">
+                    <img src="imagenes/Bateria.webp" class="imagenProduc">
+                    <h2> Batería de litio motoma LiFePO4 (Ciclo Profundo) - Energía inteligente y segura. </h2>
+                    <ul>
+                        <li><p><b>Química:</b> Fosfato de hierro y litio (LiFePO4) - La más estable y segura del mercado.</p></li>
+                        <li><p><b>Voltaje nominal:</b> 12.8V (compatible con sistemas de 12V, 24V y 48V en serie/paralelo).</p></li>
+                        <li><p><b>Eficiencia de descarga:</b> Hasta el 90% de profundidad de descarga (DoD) sin dañar la batería.</p></li>
+                        <li><p><b>Dimensiones:</b> 329 x 172 x 214 mm (varía según capacidad).</p></li>
+                        <li><p><b>Peso:</b> 12 kg (100Ah) / 23 kg (200Ah) aprox.</p></li>
+                    </ul>
+                </div>
+
+                <!--PRODUCTO 1-->
+                <div class="producto">
+                    <img src="imagenes/panel1.png" class="imagenProduc">
+                    <h2>Panel solar monocristalino bifacial 630W - Máxima Eficiencia 2026</h2>
+                    <ul>
+                        <li><p><b>Potencia Nominal:</b> 630 Watts (STC).</p></li>
+                        <li><p><b>Eficiencia del Módulo:</b> 22.8% - 23.5% (Líder en su clase).</p></li>
+                        <li><p><b>Dimensiones:</b> 2384 x 1134 x 30 mm.</p></li>
+                        <li><p><b>Peso:</b> 34 kg aprox. (Ideal para montajes robustos).</p></li>
+                    </ul>
+                </div>
+            </div>
+        
+        </section>
+
+        <!--TE OFRECEMOS + FORM -->
+        <section id="seccion3" class="secciones">
+
+            <!--TITULO-->
+            <h1>Te ofrecemos</h1>
+            <hr>
+
+            <!--CONTENEDOR TABLA-->
+            <div id="contenedorTabla">
+                <!--TABLA-->
+                <table id="tabla">
+                    <!--CABECERA TABLA-->
+                    <thead>
+                        <th>Beneficios</th>
+                        <th>Descripción</th>
+                    </thead>
+                    <!--CUERPO TABLA-->
+                    <tbody>
+                        <tr>
+                            <td>Suministro de electricidad</td>
+                            <td>Los paneles solares transforman la energía del sol en electricidad, permitiendo tener luz y energía para casas o negocios.</td>
+                        </tr>
+                        <tr>
+                            <td>Ahorro económico</td>
+                            <td>Al producir tu propia energía, se reduce el costo de la factura de electricidad a largo plazo.</td>
+                        </tr>
+                        <tr>
+                            <td>Energía limpia</td>
+                            <td>La energía solar es renovable y no produce contaminación, ayudando a proteger el medio ambiente.</td>
+                        </tr>
+                        <tr>
+                            <td>Independencia energética</td>
+                            <td>Disminuye la dependencia de la red eléctrica tradicional y de los aumentos en las tarifas.</td>
+                        </tr>
+                        <tr>
+                            <td>Energía limpia</td>
+                            <td>Aa energía solar es renovable y no produce contaminación, ayudando a proteger el medio ambiente</td>
+                        </tr>
+                        <tr>
+                            <td>Uso en zonas remotas</td>
+                            <td>Puede llevar electricidad a lugares donde no llega la red eléctrica.</td>
+                        </tr>
+                        <tr>
+                            <td>Bajo mantenimiento</td>
+                            <td>Los paneles solares requieren poco mantenimiento, principalmente limpieza y revisiones ocasionales.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!--CONTENEDOR CANCIÓN-->
+            <div id="contenedorCancion">
+                <audio src="audio/Cosechando_el_Sol.mp3" controls></audio>
+            </div>
+
+            <!--CONTENEDOR FORMULARIO-->
+            <div id="contenedorFormulario">
+
+                <!--TITULO-->
+                <h1>Envianos un mensaje</h1> 
+                
+                <!--FORM (A TRAVÉS DEL MÉTODO "POST" SE ENVIAN LOS DATOS A LA DIRECCIÓN DEL "ACTION". DESDE ALLÍ SE ENVIA EL CORREO DE NOTIFICACIÓN )-->
+                <form id="form" action="https://formspree.io/f/mjgdvkbb" method="POST">
+                    
+                    <!--CAMPO: NOMBRE-->
+                    <label for="floatingInputText">Nombre</label>
+                    <input type="text"  id="floatingInputText" placeholder="Nombre completo" name="Nombre" required autocomplete="off">
+                    
+                    <!--CAMPO: CORREO ELECTRÓNICO-->
+                    <label for="floatingInputEmail">Email</label>
+                    <input type="email"  id="floatingInputEmail" placeholder="email@example.com" name="E-mail" required autocomplete="off" >
+                    
+                    <!--CAMPO: MENSAJE-->
+                    <label for="floatingTextarea2">Indica el producto en el que te encuentras interesado/a para brindarte acompañamiento en tu compra.</label>
+                    <textarea type="message"  placeholder="Mensaje" style="height: 100px" name="Mensaje" required autocomplete="off"></textarea>
+                    
+                    <!--BOTÓN DE ENVIO-->
+                    <button type="submit">Enviar</button>       
+                </form>
+            </div>
+
+        </section>
+
+        <!--TERMINOS Y CONDICIONES-->
+        <div id="seccion4" class="secciones">
+
+            <!--TITULO-->
+            <h1>Terminos y condiciones</h1>
+            <hr>
+
+            <!--LISTA DE TERMINOS Y CONDICIONES-->
+            <ul>
+                <!--ITEM 1-->
+                <li>
+                    <h2>Productos y disponibilidad</h2>
+                    <ol>
+                        <li><P>Todos los productos están sujetos a disponibilidad.</P></li>
+                        <li><P>Lumaverde se reserva el derecho de modificar precios, características y promociones sin previo aviso.</P></li>
+                        <li><P>Las imágenes de los productos son ilustrativas y pueden variar del producto final.</P></li>
+                    </ol>
+                    
+                </li>
+                <!--ITEM 2-->
+                <li>
+                    <h2>Política de devoluciones</h2>
+                    <ol>
+                        <li><p>Se aceptan devoluciones dentro de los 7 días posteriores a la compra, siempre que el producto esté en perfecto estado.</p></li>
+                        <li><p>Los costos de envío por devolución pueden ser asumidos por el cliente, salvo defectos de fábrica.</p></li>
+                        <li><p>No se aceptan devoluciones de productos usados o instalados.</p></li>
+                    </ol>
+                </li>
+                <!--ITEM 3-->
+                <li>
+                    <h2>Garantía</h2>
+                    <ol>
+                        <li><p>Los productos cuentan con garantía según las condiciones del fabricante.</p></li>
+                        <li><p>La garantía no cubre daños por mal uso, instalación incorrecta o modificaciones no autorizadas.</p></li>
+                        <li><p>Para hacer efectiva la garantía, el cliente deberá presentar factura o comprobante de compra.</p></li>
+                    </ol>
+                </li>
+                <!--ITEM 4-->
+                <li>
+                    <h2>Protección de datos</h2>
+                    <ol>
+                        <li><p>La información personal suministrada por el usuario será tratada conforme a la normativa vigente de protección de datos y utilizada únicamente para fines comerciales y operativos de la empresa.</p></li>
+                    </ol>
+                </li>
+            </ul>   
+        </div>
+    </main>
+
+    <!--PIE DE PÁGINA-->
+    <footer>
+        <h3>Luma verde S.A.S</h3>
+
+        <span><b>Contactanos</b></span>
+
+        <span><b>Línea WhatsApp</b></span>
+
+        <span><b>+57 3125764424</b></span>
+   
+        <span><b>Escribenos</b></span>
+
+        <span><b>lumaverdeoficial@luma.com.co</b></span>
+    </footer>
+
+    <!--JS PARA DESPLEGAR Y CERRAR EL MENU MOBLE-->
+   <script src="js/menu-mobile.js"></script>
+</body>
+</html>
